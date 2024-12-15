@@ -1,0 +1,69 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+    <title>Kişisel Web Sayfam</title>
+    <style>
+        body { 
+            font-family: sans-serif; 
+            margin: 20px; 
+            background: #f0f0f0; 
+            display: flex; 
+            flex-direction: column; 
+            min-height: 100vh;
+        }
+        header { 
+            background: #333; 
+            color: #fff; 
+            padding: 10px; 
+            text-align: center;
+        }
+        h1 { margin: 0; }
+        main { 
+            background: #fff; 
+            padding: 20px; 
+            flex: 1;
+        }
+        .projects {
+            margin-top: 20px;
+        }
+        .project-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .project-item h2 {
+            margin: 0 0 10px;
+            color: #333;
+        }
+        .project-item p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Benim Adım</h1>
+    </header>
+    <main>
+        <p>Merhaba! Bu benim kişisel web sayfam. Buraya özgeçmişimi, projelerimi ve iletişim bilgilerimi ekleyebilirim.</p>
+
+        <!-- Proje Tanıtım Bölümü -->
+        <section class="projects">
+            <h2>Projelerim</h2>
+            <div class="project-item">
+                <h2>Proje 1: Kişisel Blog</h2>
+                <p>Kendi blog sistemimi geliştirdim. HTML, CSS ve JavaScript kullanarak minimal bir tasarım oluşturuldu.</p>
+            </div>
+            <div class="project-item">
+                <h2>Proje 2: To-Do List Uygulaması</h2>
+                <p>Görevlerin yönetilebileceği bir To-Do uygulaması geliştirdim. JavaScript kullanarak dinamik liste oluşturuldu.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
